@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import classes from './MainNavigation.module.css'
-function MainNavaigation() {
+function MainNavigation() {
     return (
         <header className={classes.header}>
             <nav>
@@ -16,4 +16,4 @@ function MainNavaigation() {
         </header>
     );
 }
-export default MainNavaigation
+export default MainNavigation
